@@ -14,6 +14,8 @@ let f = Symbol("I am the greatest person of the world");
 let g = undefined;
 console.log(a, b, c, d, e, f, g);
 console.log(typeof (d));
+console.log(typeof (g));    //undefined
+console.log(typeof (a));    //object
 
 
 //object in js
