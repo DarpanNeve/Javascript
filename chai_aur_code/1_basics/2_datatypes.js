@@ -1,4 +1,4 @@
-// N -Null
+// N -Null  - Standalone value
 // N -Number
 // S -Symbol
 // S -String

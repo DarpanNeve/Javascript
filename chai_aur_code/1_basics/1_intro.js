@@ -1,9 +1,9 @@
 console.log("Hello world");
-//var is globally scoped nad can be redeclared
+//var is globally scoped and can be redeclared
 //var can be updated
 var a = 45;
 var darpan;
-
+// Do not use var because of issue in block scope and functional scope 
 let b = "Harry";
 var c = null;
 var d = undefined;
@@ -19,3 +19,4 @@ var d = undefined;
 }
 console.log(b);
 console.log(a);
+console.table([a,b,c,d]);
