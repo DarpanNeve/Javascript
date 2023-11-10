@@ -19,4 +19,5 @@ var d = undefined;
 }
 console.log(b);
 console.log(a);
+// syntax to create table
 console.table([a,b,c,d]);
