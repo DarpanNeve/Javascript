@@ -30,3 +30,26 @@ let obj={
 const myFunction=function(){
     console.log("Hello world");
 }
+
+//=====================================================================================
+
+// Memory
+// Stack (Primitive), Heap (Non-Primitive)
+// stack gives the copy
+// Heap gives the reference
+
+let myName='darpan'
+let myAnotherName=myName
+myAnotherName='Neve'
+
+console.log(myAnotherName)
+console.log(myName)
+let obj1={
+    name:'darpan',
+    number:9175
+}
+let obj2=obj1;
+obj2.name='Neve'
+console.log(obj1);
+console.log(obj2);
+
