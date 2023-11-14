@@ -19,3 +19,4 @@ function calculateCartPrice(...num1) {
 }
 
 calculateCartPrice(400, 200, 300);
+function handleObject(anyObject) {}
