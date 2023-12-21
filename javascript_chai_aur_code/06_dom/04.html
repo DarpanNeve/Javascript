@@ -6,10 +6,18 @@
     <title>Document</title>
   </head>
   <body>
-    <ul id="list">
+    <ul id="list" class="language">
       <li>Item 1</li>
       <li>Item 2</li>
     </ul>
   </body>
   <script src="04.js"></script>
+  <script>
+    function addLanguage(langName) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addLanguage("python");
+  </script>
 </html>
